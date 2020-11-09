@@ -69,7 +69,7 @@ are located in the folder models/UMNN.
 the net but to the price of a higher memory cost. 
 - `UMNNMAF.py` contains the implementation of the different networks required by UMNN.
 - `UMNNMAFFlow.py` contains the implementation of flows made of UMNNs.
-- Check [here](https://github.com/AWehenkel/generalized-UMNN/) if you are interested by modeling functions that are monotonic with respect to more than one input variable. (Fell free to reach me for more details)
+- Check [here](https://github.com/AWehenkel/generalized-UMNN/) if you are interested by modeling functions that are monotonic with respect to more than one input variable. Feel free to reach me for more details!
 
 ## What's new in 1.5?
 The inversion is now performed exactly by solving another integral. Namely, it is derived 
