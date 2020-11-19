@@ -1,3 +1,5 @@
+If you are here for normalizing flows may be interested by the repository https://github.com/AWehenkel/Normalizing-Flows.
+
 # Unconstrained Monotonic Neural Networks (UMNN)
 ![](figures/archi.png)
 Official implementation of Unconstrained Monotonic Neural Networks (UMNN) and the experiments presented in the paper:
@@ -71,10 +73,6 @@ the net but to the price of a higher memory cost.
 - `UMNNMAFFlow.py` contains the implementation of flows made of UMNNs.
 - Check [here](https://github.com/AWehenkel/generalized-UMNN/) if you are interested by modeling functions that are monotonic with respect to more than one input variable. Feel free to reach me for more details!
 
-## What's new in 1.5?
-The inversion is now performed exactly by solving another integral. Namely, it is derived 
-from the inverse function theorem. UMNNs now provide a way to model a monotonic function with a neural network while providing
-an access to the derivative of both the function and its inverse with respect to neural network's parameters.
 ## Cite
 
 If you make use of this code in your own work, please cite our paper:
